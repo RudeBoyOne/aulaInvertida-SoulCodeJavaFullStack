@@ -3,4 +3,4 @@ function displayTime() {
     let time = date.toLocaleTimeString();
     document.querySelector('.clock').textContent = time;
   }
-  const createClock = setInterval(displayTime, 1000);
+    setInterval(displayTime, 1000);
