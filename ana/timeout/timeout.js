@@ -4,7 +4,7 @@ function digaOi() {
 digaOi()
 
 /*let myGreeting = setTimeout(function sayHi() {
-    alert('Hello, Mr. Universe!');
+    alert('Olá tudo bem');
   }, 2000)*/
 
 let teste = "Se aparecer depois do Alert é síncrono e se aparecer depois é assíncrono"
