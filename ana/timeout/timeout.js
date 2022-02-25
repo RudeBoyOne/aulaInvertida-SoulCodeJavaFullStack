@@ -1,17 +1,11 @@
-function digaOi() {
-    alert('Olá tudo bem!');
-  }
-digaOi()
+// function digaOi() {
+//     alert('Olá tudo bem!');
+//   }
+// digaOi()
 
-<<<<<<< HEAD
-/*let myGreeting = setTimeout(function sayHi() {
+let myGreeting = setTimeout(function sayHi() {
     alert('Olá tudo bem');
-  }, 2000)*/
-=======
-// let myGreeting = setTimeout(function sayHi() {
-//     alert('Hello, Mr. Universe!');
-//   }, 3000)
->>>>>>> b6fbee6431898410f10208efc562222fc4d626d8
+  }, 2000)
 
-let teste = "Se aparecer depois do Alert é síncrono e se aparecer depois é assíncrono"
+let teste = "Se aparecer DEPOIS do Alert é 'SÍNCRONO' e se aparecer ANTES é 'ASSÍNCRONO'"
 document.write(teste)

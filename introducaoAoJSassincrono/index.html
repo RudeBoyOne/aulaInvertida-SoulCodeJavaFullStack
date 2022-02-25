@@ -2,17 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <style>
+
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: cornflowerblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      button{
+        width: 25%;
+        height: 8%;
+        font-weight: 800;
+        border-radius: 10px;
+        border: solid 2px black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      p{
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+    </style>
+
     <title>Simples exemplo de JavaScript Síncrono</title>
   </head>
   <body>
-    <button>Clique aqui!</button>
+    <button>CLIQUE AQUI!</button>
     <script>
     const btn = document.querySelector('button');
     btn.addEventListener('click', () => {
       alert('Você clicou no lugar certo!!!');
 
       let pElem = document.createElement('p');
-      pElem.textContent = 'Este é um parágrafo recém adicionado';
+      pElem.textContent = 'ESTE É UM PARAGRÁFO RECÉM ADICIONADO';
       document.body.appendChild(pElem);
     });
     </script>
